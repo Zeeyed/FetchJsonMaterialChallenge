@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-5b444fb6e02e366b49cdc6a64cb78d54b9771bb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-eeb83495e62f988880d02f190c9eae807154673c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zied\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\library-2.4.0-959724f7a67dce0c594de4c9b1726b443d1178f8.jar" />
+    </item>
+
+</items>

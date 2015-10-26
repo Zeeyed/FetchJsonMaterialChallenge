@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/BrazilChallenge/FetchNewsChallenge/app/src/main/res/values-w820dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <!-- From: file:/D:/BrazilChallenge/FetchNewsChallenge/app/src/main/res/values-w820dp/strings.xml -->
+    <eat-comment/>
+    <string name="error_auth_fail">Authetification failed</string>
+    <string name="error_network">Error Network</string>
+</resources>

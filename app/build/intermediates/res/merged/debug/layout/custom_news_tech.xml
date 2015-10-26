@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="13dp"
+    android:layout_marginRight="13dp"
+    android:minHeight="72dp">
+
+
+
+    <ImageView
+        android:id="@+id/movieThumbnail"
+        android:layout_width="54dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/ic_action_home" />
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/movieThumbnail"
+        android:layout_marginLeft="56dp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="Hitman Agent 47"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/movieReleaseDate"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/movieTitle"
+        android:padding="10dp"
+        android:text="31-31-31"
+        android:textSize="13dp" />
+
+
+</RelativeLayout><!-- From: file:/D:/BrazilChallenge/FetchNewsChallenge/app/src/main/res/layout/custom_news_tech.xml -->
