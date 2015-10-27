@@ -2,25 +2,95 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
-        <dex dex="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-5b444fb6e02e366b49cdc6a64cb78d54b9771bb8.jar" />
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-b78d562858ee7bfc53271934f5cb87a2b49e177c.jar" />
     </item>
     <item
-        jar="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
-        <dex dex="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-eeb83495e62f988880d02f190c9eae807154673c.jar" />
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-ece200394a9c62152a339867219fe829b92da87c.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-2cf3ed2888d64ad1a76b787556f27d52695ec7e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zied\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\library-1.0.18-8cae1bed50d3b50bfe81518007bb6d69db36ad8b.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-5379c3fffe5a24f0c09436bc8b13309c36d60914.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-1dcda6035b2f703e3e63a3c5589201a58b9283d3.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.github.markushi\android-ui\1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="96436aef5f48b09aca1e0183dfcd7782aa580bd6">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-9dce142891fad87d2c3513c4bcf5d222c92efa0d.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\it.neokree\MaterialTabs\0.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef6aa7ea0bb2d6adf10965d0a5bb8e353517bff">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-d2e85050eabac88d1f4dd9c987edd3427dc8b874.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-3a29404dac6aed6c74a2aefc155860f6135ef73f.jar" />
     </item>
     <item
         jar="C:\Users\Zied\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="C:\Users\Zied\Downloads\Compressed\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\library-2.4.0-959724f7a67dce0c594de4c9b1726b443d1178f8.jar" />
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\library-2.4.0-959724f7a67dce0c594de4c9b1726b443d1178f8.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-f1827f6ee0551e0d9a882bcad3061619dd27675a.jar" />
+    </item>
+    <item
+        jar="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\classes-3e4ebbfee669e0b1992f2b7a53c79e37e27caa60.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zied\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\BrazilChallenge\FetchNewsChallenge\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-ecaf070c3be0021e2139086df62d87c732354fac.jar" />
     </item>
 
 </items>

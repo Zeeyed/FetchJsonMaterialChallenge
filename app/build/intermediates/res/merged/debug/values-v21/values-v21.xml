@@ -7,6 +7,7 @@
     <eat-comment/>
     <string name="error_auth_fail">Authetification failed</string>
     <string name="error_network">Error Network</string>
+    <string name="title_activity_detail">Details</string>
     <!-- From: file:/D:/BrazilChallenge/FetchNewsChallenge/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppTheme.NoActionBar">

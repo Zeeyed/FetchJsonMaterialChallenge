@@ -3,6 +3,7 @@ package zied.curiousbat.fetchnewschallenge.pojo;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import zied.curiousbat.fetchnewschallenge.Logging.L;
@@ -11,7 +12,7 @@ import zied.curiousbat.fetchnewschallenge.Logging.L;
  * Description : Class to handle data
  * Created by Zied on 26/10/2015.
  */
-public class NewsTech implements Parcelable{
+public class NewsTech implements Parcelable, Serializable{
 
     private int id;
     private String title;

@@ -16,7 +16,7 @@ public class AnimationUtils {
 
     public static void animate(RecyclerView.ViewHolder holder, boolean goesDown){
 
-        YoYo.with(Techniques.FadeOutLeft)
+        YoYo.with(Techniques.BounceInLeft)
                 .duration(1000)
                 .playOn(holder.itemView);
     }

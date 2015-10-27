@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements MaterialTabListen
     public static final int NEWS_TECH_SEARCH = 0;
 
     // TAGS to filter Recyclerview
-    private static final String TAG_SORT_NAME ="sortName";
+    private static final String TAG_SORT_NAME = "sortName";
     private static final String TAG_SORT_DATE = "sortDate";
 
     private MyPagerAdapter mAdapter;
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements MaterialTabListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
+        toolbar.setTitleTextColor(0xFFFFFFFF);
         setSupportActionBar(toolbar);
 
 
@@ -91,10 +91,10 @@ public class MainActivity extends AppCompatActivity implements MaterialTabListen
                 .build();
 
         ImageView iconSortByName = new ImageView(this);
-        iconSortByName.setImageResource(R.drawable.ic_action_articles);
+        iconSortByName.setImageResource(R.drawable.ic_action_alphabets);
 
         ImageView iconSortByDate = new ImageView(this);
-        iconSortByDate.setImageResource(R.drawable.ic_action_personal);
+        iconSortByDate.setImageResource(R.drawable.ic_action_calendar);
 
 
         SubActionButton.Builder itemBuilder = new SubActionButton.Builder(this);
@@ -141,19 +141,18 @@ public class MainActivity extends AppCompatActivity implements MaterialTabListen
     @Override
     public void onClick(View v) {
         Fragment fragment = (Fragment) mAdapter.instantiateItem(viewPager, viewPager.getCurrentItem());
-        if (fragment instanceof SortListener){
+        if (fragment instanceof SortListener) {
 
             if (v.getTag().equals(TAG_SORT_NAME)) {
 
-                    ((SortListener)fragment).onSortByName();
+                ((SortListener) fragment).onSortByName();
 
             }
             if (v.getTag().equals(TAG_SORT_DATE)) {
-                ((SortListener)fragment).onSortByDate();
-                L.t(this, "sort by date");
+                ((SortListener) fragment).onSortByDate();
+                //L.t(this, "sort by date");
             }
         }
-
 
 
     }

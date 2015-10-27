@@ -7,4 +7,5 @@
     <eat-comment/>
     <string name="error_auth_fail">Authetification failed</string>
     <string name="error_network">Error Network</string>
+    <string name="title_activity_detail">Details</string>
 </resources>

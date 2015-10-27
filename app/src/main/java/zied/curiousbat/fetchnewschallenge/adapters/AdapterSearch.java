@@ -1,6 +1,8 @@
 package zied.curiousbat.fetchnewschallenge.adapters;
 
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +10,7 @@ import android.view.ViewGroup;
 
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
@@ -17,6 +20,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import zied.curiousbat.fetchnewschallenge.Logging.L;
+import zied.curiousbat.fetchnewschallenge.NTDetailActivity;
 import zied.curiousbat.fetchnewschallenge.R;
 import zied.curiousbat.fetchnewschallenge.extras.Constants;
 import zied.curiousbat.fetchnewschallenge.network.VolleySingleton;
@@ -33,12 +38,14 @@ public class AdapterSearch extends RecyclerView.Adapter<AdapterSearch.ViewHolder
 
     private ArrayList<NewsTech> listMovies = new ArrayList<>();
     private LayoutInflater layoutInflater;
+    private static Context context;
     private VolleySingleton volleySingleton;
     private ImageLoader imageLoader;
     private DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
     private int previousPosition = 0;
 
     public AdapterSearch(Context context) {
+        this.context = context;
         layoutInflater = LayoutInflater.from(context);
         volleySingleton = VolleySingleton.getInstance();
         imageLoader = volleySingleton.getImageLoader();
@@ -89,7 +96,12 @@ public class AdapterSearch extends RecyclerView.Adapter<AdapterSearch.ViewHolder
 
         String urlThunmbnail = currentMovie.getImg();
         loadImage(urlThunmbnail, holder);
+
+
+
     }
+
+
 
     private void loadImage(String urlThumbnail, final ViewHolderSearch holder) {
         if (!urlThumbnail.equals(Constants.NA)) {
@@ -112,7 +124,8 @@ public class AdapterSearch extends RecyclerView.Adapter<AdapterSearch.ViewHolder
         return listMovies.size();
     }
 
-    static class ViewHolderSearch extends RecyclerView.ViewHolder {
+
+     class ViewHolderSearch extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         private ImageView techImg;
         private TextView techTitle;
@@ -121,10 +134,23 @@ public class AdapterSearch extends RecyclerView.Adapter<AdapterSearch.ViewHolder
 
         public ViewHolderSearch(View itemView) {
             super(itemView);
-
+            itemView.setOnClickListener(this);
             techTitle = (TextView) itemView.findViewById(R.id.movieTitle);
             techDate = (TextView) itemView.findViewById(R.id.movieReleaseDate);
             techImg = (ImageView) itemView.findViewById(R.id.movieThumbnail);
         }
+
+        // Not Complete detail
+        @Override
+        public void onClick(View v) {
+            /*
+            Intent intent = new Intent(context, NTDetailActivity.class);
+            Bundle bundle = new Bundle();
+            bundle.putSerializable("DATA", listMovies.get(getAdapterPosition()));
+            intent.putExtras(bundle);
+            context.startActivity(intent);
+            */
+        }
+
     }
 }
